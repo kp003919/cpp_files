@@ -8,7 +8,7 @@ int fact(int n)
 	}
 	else if(n<=1)
 	{
-           
+           return 1;
 	}
 	else
 	return n*fact(n-1);
@@ -17,5 +17,7 @@ int fact(int n)
 int main()
 {
 	count << "Hello worl" << endl;
+	for (auto i =0; i<20; i++)
+		cout<<fact(i)<<endl;
 	return 0;
 }
